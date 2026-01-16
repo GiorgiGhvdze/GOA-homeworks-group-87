@@ -1,0 +1,15 @@
+div{
+    background-color: gray;
+    width: 100px;
+    height: 200px;
+}
+
+ul{
+    list-style-position: inside;
+    list-style-type: upper-roman;
+}
+
+#l2 li{
+    list-style-position: inside;
+    list-style-image: url(menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg);
+}
