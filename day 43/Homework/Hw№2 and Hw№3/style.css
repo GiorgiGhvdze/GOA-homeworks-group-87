@@ -1,0 +1,13 @@
+ul{
+    background-color: lightblue;
+    width: 50px;
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+ol{
+  background-color: lightgreen;
+    width: 50px;
+    list-style-position: outside;
+    list-style-type: upper-roman;  
+}
