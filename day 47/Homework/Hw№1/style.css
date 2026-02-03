@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+#body{
+    background-color: hsl(0, 0%, 8%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner{
+    height: 600px;
+    width: 400px;
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#stats{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#p2{
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+#texts img{
+    width: 90px;
+    border-radius: 50%;
+}
+
+#twotexts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+#twotexts h1{
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+#p1{
+    color: hsl(75, 94%, 57%);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    border-radius: 9px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+button:active{
+    transition: 0.2s;
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+

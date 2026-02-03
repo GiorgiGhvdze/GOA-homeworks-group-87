@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#mainbox{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgs{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    border-radius: 12px;
+    gap: 20px;
+}
+
+#first{
+    background-image: url(image.png);
+     width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    
+    color: white;
+    background-size: 300px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow:
+     2px 2px 20px grey,
+     -2px -2px 20px grey
+    ;
+}
+
+#second{
+    background-image: url(image1.png);
+     width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    
+    color: white;
+    background-size: 300px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow:
+     0.5px 0.5px 8px grey,
+     -0.5px -0.5px 8px grey
+    ;
+}
+
+#third{
+    background-image: url(image2.png);
+     width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    
+    color: white;
+    background-size: 300px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow:
+     0.5px 0.5px 8px grey,
+     -0.5px -0.5px 8px grey
+    ;
+}
+
+#fourth{
+    background-image: url(image3.png);
+     width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    
+    color: white;
+    background-size: 300px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow:
+     0.5px 0.5px 8px grey,
+     -0.5px -0.5px 8px grey
+    ;
+}
+
+#fifth{
+    background-image: url(image4.png);
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    
+    background-size: 300px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+    border-radius: 12px;
+    box-shadow:
+     0.5px 0.5px 8px grey,
+     -0.5px -0.5px 8px grey
+    ;
+}
+
+#sixth{
+    background-image: url(image5.png);
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 300px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 12px;
+    box-shadow:
+     0.5px 0.5px 8px grey,
+     -0.5px -0.5px 8px grey
+    ;
+}
