@@ -1,0 +1,103 @@
+/* box model - არის ყუთი რომელშიც შეგვიძლია დავარეგულიროთ ზომა და სივრცე საიტზე.
+            ნებისმიერი ჰტმლ თეგი არის ყუთი რომელშიც არის ფენები - content padding border და    padding
+
+content - შიგნით ჩაიწერება ზირითადი რაგაცეები მაგალითად - ტექსტი, სურათი და ა.შეგვიძლია
+
+padding - სივრცეა რომელიც მდებარეობს content-ის და border-ის შორის
+
+border - ხაზია რომელიც შემოსაზღვრავს padding-ს და content-ს და შეგვიძრია შევუცვალოთ სისქე ფერი და სტილი
+    padding - არის გარე საზღვარი */
+
+/* Css reset - გამოიყენება იმისთვის რომ გავანულოთ თავდაპირველი ანუ დეფაულტ სტილი საიტზე*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#maindiv1{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px 0 20px;
+}
+
+#maindiv2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px 0 20px;
+}
+
+#maindiv3{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px 0 20px;
+}
+
+#maindiv4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px 0 20px;
+}
+
+#maindiv5{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px 0 20px;
+}
+
+.div1{
+    background-color: red;
+    width: 100px;
+    height: 150px;
+    padding: 10px 0 10px 0;
+    background-clip: content-box;
+}
+
+.div2{
+    background-color: orange;
+    width: 150px;
+    height: 200px;
+    padding: 10px 0 10px 0;
+    background-clip: content-box;
+}
+
+.div3{
+    background-color: yellow;
+    width: 200px;
+    height: 250px;
+    padding: 10px 0 10px 0;
+    background-clip: content-box;
+}
+
+.div4{
+    background-color: green;
+    width: 250px;
+    height: 300px;
+    padding: 10px 0 10px 0;
+    background-clip: content-box;
+}
+
+.div5{
+    background-color: blue;
+    width: 300px;
+    height: 350px;
+    padding: 10px 0 10px 0;
+    background-clip: content-box;
+}
