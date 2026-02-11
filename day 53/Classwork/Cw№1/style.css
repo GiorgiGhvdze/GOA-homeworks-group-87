@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+
+#maindiv {
+    width: 500px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.divs{
+    border: 3px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
