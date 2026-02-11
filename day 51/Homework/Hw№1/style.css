@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+#main{
+    background-color: #E0E8FF;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#boxcolor{
+    background-color: white;
+    width: 450px;
+    height: 697px;
+    border-radius: 20px;
+}
+
+#boxitems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+}
+
+#texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 354px;
+    gap: 15px;
+}
+
+
+
+#img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+#summary{
+    font-weight: 900;
+    font-size: 28px;
+    word-spacing: 2px;
+    height: 37px;
+}
+
+#info{
+    font-weight: 400;
+    font-size: 16px;
+    word-spacing: 1px;
+    text-align: center;
+    color: #717FA6;
+    display: flex;
+    flex-direction: column;
+    line-height: 26px;
+}
+
+#planbox{
+    background-color: #f8f9fd;
+    border-radius: 11px;
+    height: 98px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+#planboxitems{
+    display: flex;
+    flex-direction: row;
+    gap: 99px;
+}
+
+#imagediv{
+    border-radius: 50%;
+    background-color: #DFE6FB;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagexplan{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+
+#price{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+}
+
+#annual{
+    font-weight: 900;
+    font-size: 16px;
+    color: #1F2E55;
+}
+
+#yearprice{
+    color: #717FA6;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#changediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#change{
+    border: none;
+    background-color: #F7F9FF;
+    color: #382AE1;
+    text-decoration: underline solid #382AE1;
+    font-weight: 700;
+    font-size: 14px;
+}
+#change:active{
+    text-decoration: none;
+    color: #766CF1;
+}
+
+
+#payment{
+    color: white; 
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    background-color: #382AE1;
+    height: 100%;
+    border: none;
+    border-radius: 11px;
+    
+}
+
+#payment:active{
+    background-color: #766CF1;
+}
+
+#shadow{
+    height: 50px;
+    width: 100%;
+    box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
+}
+
+
+#cancel{
+    color: #717FA6;
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#cancel:active{
+    color: #1F2E55;
+}
+
+#texts2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}

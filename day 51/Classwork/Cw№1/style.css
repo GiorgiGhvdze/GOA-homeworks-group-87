@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+#body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3eae3;
+}
+
+#box{
+    background-color: white;
+    height: 500px;
+    width: 700px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#info{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#img1{
+    height: 100%;
+    border-radius: 9px 0 0 9px;
+    width: 50%;
+}
+
+#texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+#inner{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#perfume{
+    font-size: small;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 7px;
+    font-weight: 300;
+}
+
+#h1{
+    font-family: "Fraunces", serif;
+    font-weight: bold;
+    color: hsl(212, 21%, 14%);
+    line-height: 1.05;
+}
+
+#p1{
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.6;
+}
+
+#buy{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#price{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+#newprice{
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces", serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#oldprice{
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through solid hsl(228, 12%, 48%);
+    font-size: medium;
+}
+
+
+#button{
+    border: none;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#button:active{
+    background-color: hsl(158, 42%, 18%);
+}
+
