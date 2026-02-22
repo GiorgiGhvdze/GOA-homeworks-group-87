@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Big Shoulders", sans-serif;
+}
+
+#main{
+    height: 1392px;
+    position: relative;
+}
+
+#map{
+    height: 600px;
+    width: 100%;
+    background-image: url(Bitmap\ \(4\).png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttonmain{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 72px;
+    border: none;
+    outline: 0px;
+    position: absolute;
+    top: 0;
+    left: 156px;
+}
+
+#buttonpart1{
+    padding: 0 32.6px;
+    height: 72px;
+    background-color: #151515;
+    border: none;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttonpart2{
+    padding: 0 23px 0 23px;
+    background-color: #d5966c;
+    height: 72px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttonmain:active #buttonpart1 {
+    background-color: #d5966c;
+    transition: 0.2s;
+}
+
+#buttonmain:active #buttonpart2 {
+    background-color: #151515;
+    transition: 0.2s;
+}
+
+#buttonpart1 p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 3.64px;
+    font-weight: 500;
+}
+
+
+#location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 32px solid #151515;
+}
+
+#square{
+    width: 66px;
+    height: 56px;
+    background-color: #151515;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle{
+    width: 24px;
+    height: 24px;
+    background-color: #D5966C;
+    border-radius: 50%;
+}
+
+/* second */
+
+#blacksquare{
+    width: 100%;
+    height: 548px;
+    background-color: #151515;
+    position: absolute;
+    top: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#inside{
+   width: 1100px;
+   height: 316px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+
+#inside h1{
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 70px;
+    color: white;
+}
+
+#inside div{
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#inside div div h2{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    color: #D5966C;
+}
+
+#inside div div p{
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 32px;
+    color: white;
+    font-family: "Outfit", sans-serif;
+}
+
+#inside div p{
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 32px;
+    color: white;
+    font-family: "Outfit", sans-serif;
+}
+
+/* third */
+
+#third{
+    height: 244px;
+    background-color: #d5966c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+#third div{
+    width: 1100px;
+    height: 84px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#third div #div1{
+    width: 730px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#third div #div1 h1{
+    font-weight: 900;
+    color: #151515;
+    height: 54px;
+    width: 160px;
+    font-size: 26px;
+}
+
+
+#third div #div1 p{
+    font-weight: 300;
+    color: #151515;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    width: 430px;
+}
+
+#third div #div2{
+    width: 100px;
+    height: 20px;
+}
+
+#div2img1{
+    background-image: url(Path\ \(4\).png);
+    background-repeat: no-repeat;
+    
+    background-position: top left;
+}
+
+#div2img1:active{
+    background-image: url(Path.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    transition: 0.1s;
+}
+
+#div2img2{
+    background-image: url(Shape\ \(2\).png);
+    background-repeat: no-repeat;
+    
+    background-position: top center;
+}
+
+#div2img3{
+    background-image: url(Path\ \(5\).png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}

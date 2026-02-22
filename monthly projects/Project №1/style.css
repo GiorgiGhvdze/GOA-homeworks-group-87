@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Big Shoulders", sans-serif;
+}
+
+
+
+#body{
+    height: 2554px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 180px;
+}
+
+#first{
+    display: flex;
+    flex-direction: row;
+    width: 1275px;
+    position: relative;
+    align-self: flex-start;
+}
+
+#black{
+    width: 450px;
+    height: 800px;
+    background-color: #151515;
+}
+
+#img1{
+    width: 540px;
+    height: 800px;
+}
+
+#h1{
+    text-transform: uppercase;
+    font-size: 96px;
+    color: white;
+    line-height: 88px;
+    position: relative;
+    top: 190px;
+    left: 175.7px;
+}
+
+#h1 p{
+    letter-spacing: 2px;
+}
+
+#h2{
+    color: #151515;
+    font-size: 96px;
+    line-height: 88px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 450px;
+    top: 278px;
+}
+
+#p1{
+    width: 350px;
+    line-height: 32px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    color: #444444;
+    position: absolute;
+    left: 925px;
+    top: 190px;
+}
+
+#buttonmain{
+    display: flex;
+    flex-direction: row;
+    height: 72px;
+    border: none;
+    outline: 0px;
+    position: absolute;
+    top:414px;
+    left: 925px;
+}
+
+#buttonpart1{
+    padding: 0 32.6px;
+    height: 72px;
+    background-color: #151515;
+    border: none;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttonpart2{
+    padding: 0 23px 0 23px;
+    background-color: #d5966c;
+    height: 72px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttonmain:active #buttonpart1 {
+    background-color: #d5966c;
+    transition: 0.2s;
+}
+
+#buttonmain:active #buttonpart2 {
+    background-color: #151515;
+    transition: 0.2s;
+}
+
+#buttonpart1 p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 3.64px;
+    font-weight: 500;
+}
+
+
+/* second */
+
+#second{
+    width: 1110px;
+    height: 1150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* secondpart1 */
+
+
+
+
+#secondpart1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#secondpart1 div{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+#secondpart1 div h1{
+    text-transform: uppercase;
+    color: #151515;
+    line-height: 60px;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+#secondpart1 div p{
+    color:#444444;
+    line-height: 33px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+}
+
+#secondpart1 img{
+    width: 635px;
+    height: 400px;
+}
+
+/* secondpart2 */
+
+#secondpart2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#secondpart2 div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+#secondpart2 img{
+    width: 635px;
+    height: 720px;
+}
+
+#secondpart2 div img{
+    width: 445px;
+    height: 313px;
+    
+}
+
+
+
+#secondpart2 div div{
+    width: 445px;
+    height: 377px;
+    background-color: #151515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#secondpart2 div div div{
+    width: 350px;
+    height: 248px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#secondpart2 div div div h1{
+    font-weight: 900;
+    line-height: 60px;
+    font-size: 60px;
+    color: white;
+}
+
+#secondpart2 div div div p{
+    font-weight: 200;
+    line-height: 32px;
+    font-size: 22px;
+    color: white;
+    font-family: "Outfit", sans-serif;
+}
+
+/* third */
+
+#third{
+    height: 244px;
+    background-color: #151515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#third div{
+    width: 1100px;
+    height: 84px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#third div #div1{
+    width: 730px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#third div #div1 h1{
+    font-weight: 900;
+    color: white;
+    height: 54px;
+    width: 160px;
+    font-size: 26px;
+}
+
+
+#third div #div1 p{
+    font-weight: 300;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    width: 430px;
+}
+
+#third div #div2{
+    width: 100px;
+    height: 20px;
+}
+
+#div2img1{
+    background-image: url(Path.svg);
+    background-repeat: no-repeat;
+    
+    background-position: top left;
+}
+
+#div2img1:active{
+    background-image: url(Path\ \(3\).png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    transition: 0.1s;
+}
+
+#div2img2{
+    background-image: url(Shape.svg);
+    background-repeat: no-repeat;
+    
+    background-position: top center;
+}
+
+#div2img3{
+    background-image: url(Path\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+
+@media screen and (max-width: 425px){
+   *{
+        margin: 0;
+        padding: 0;
+        width: 0;
+        height: 0;
+    }
+
+    #first,#pp1, #hh1, #second, #third, #black, #img1, #p1, a, #h1, #h2, #h1 p, #second, #secondpart1,#secondpart1 div, #secondpart1 div h1, #secondpart1 div p, #secondpart1 img, #secondpart2, #secondpart2 img, #secondpart2 div, #secondpart2 div div, #secondpart2 div div div, #secondpart2 div div div h1, #secondpart2 div div div p, #third, #third div, #div1, #div1 h1, #div1 p, #div2img1, #div2img2, #div2img3{
+        width: 0;
+        height: 0;
+        font-size: 0;
+        position: static;
+        margin: 0;
+        padding: 0;
+        line-height: 0px;
+
+        top: 0;
+        left: 0;
+    }
+
+    
+
+    #buttonmain{
+        top: 0;
+        left: 0;
+    }
+ 
+
+}
+
