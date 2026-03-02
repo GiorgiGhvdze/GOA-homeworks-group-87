@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#body{
+    height: 100vh;
+    display: flex;
+    align-items: end;
+}
+
+#bubble{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #3fb2ff;
+    animation: myMove 3s infinite;
+}
+
+@keyframes myMove{
+    25%{
+        width: 100px;
+        height: 100px;
+        transform:translate(200px,-200px);
+    }
+    
+    50%{
+        width: 200px;
+        height: 200px;
+        transform: translate(350px,-300px);
+    }
+
+    75%{
+        width: 130px;
+        height: 130px;
+        transform:  translate(500px,-150px);
+    }
+
+    100%{
+        width: 75px;
+        height: 75px;
+        transform:  translate(900px,-100px);
+    }
+
+}
