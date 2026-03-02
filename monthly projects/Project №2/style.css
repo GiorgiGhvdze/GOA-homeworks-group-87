@@ -1,0 +1,770 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    color: #07043B;
+    transition: 0.1s;
+    outline: none;
+}
+
+#body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#maininner {
+    width: 91%;
+    margin-top: 40px;
+}
+
+/* first */
+
+#first {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* first part 1 */
+
+#fylo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 160px;
+    font-size: 22px;
+}
+
+#icon {
+    background-image: url(./Fill\ 1.png);
+    background-repeat: no-repeat;
+    height: 46px;
+    width: 56px;
+}
+
+/* first part 2 */
+
+#firstText {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+}
+
+
+/* second */
+
+#second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+
+#secondimg {
+    background-image: url(./illustration_1-01.svg);
+    background-repeat: no-repeat;
+    background-size: 550px 474px;
+    height: 474px;
+    width: 550px;
+}
+
+#secondinner {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#secondinner h1 {
+    font-size: 40px;
+    line-height: 60px;
+}
+
+#secondinner p {
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.53px;
+}
+
+#secondinner div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#secondinner input {
+    width: 55%;
+    box-sizing: border-box;
+    border: 0.63px solid #07043B;
+    outline: none;
+    box-shadow: 2px 3px 6px #00000029;
+    border-radius: 3px;
+    height: 45px;
+
+}
+
+#secondinner input::placeholder {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #C2C2C2;
+    letter-spacing: 0.5px;
+    position: relative;
+    left: 18px;
+}
+
+
+#secondinner button {
+    height: 45px;
+    width: 40%;
+    outline: none;
+    background-color: #2F65F8;
+    border: none;
+    color: white;
+    box-shadow: 2px 3px 6px #00000029;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* third */
+
+#third {
+    margin-top: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#thirdimg {
+    background-image: url(./illustration_2-01.svg);
+    width: 500px;
+    height: 400px;
+}
+
+#thirdinner {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    gap: 40px;
+}
+
+#thirdinner h1 {
+    font-size: 45px;
+}
+
+#ps {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+
+#thirdinner p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 24px;
+}
+
+#green {
+    align-items: center;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2px;
+}
+
+#greenpart1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#greenpart1 p {
+    color: #3DA08F;
+}
+
+#greenpart2 {
+    height: 1px;
+    width: 100%;
+    background-color: #3DA08F;
+}
+
+#greenpart1:active p {
+    color: #71DFCC;
+}
+
+#greenpart2:active {
+    color: #71DFCC;
+}
+
+#icon2 {
+    background-image: url(./arrow-forward.svg);
+    width: 12px;
+    height: 12px;
+    background-color: #3DA08F;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: center;
+    box-shadow: 0.5px 0.5px 2px #3DA08FCA, -0.5px -0.5px 2px #3DA08FCA, -0.5px 0.5px 2px #3DA08FCA, 0.5px -0.5px 2px #3DA08FCA;
+}
+
+#green:active #icon2 {
+    background-color: #71DFCC;
+    box-shadow: 0.5px 0.5px 2px #3DA08FCA, -0.5px -0.5px 2px #3DA08FCA, -0.5px 0.5px 2px #3DA08FCA, 0.5px -0.5px 2px #3DA08FCA;
+}
+
+#green:active #greenpart2 {
+    background-color: #71DFCC;
+}
+
+#about {
+    width: 356px;
+    height: 215px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+#aboutinner {
+    width: 289px;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#aboutinner h2 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 40px;
+    height: 30px;
+}
+
+#aboutinner p {
+    font-size: 13px;
+    line-height: 23px;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 0.5px;
+}
+
+#profile {
+    width: 140px;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 6px;
+}
+
+#profileinner {
+    display: flex;
+    flex-direction: column;
+}
+
+#profileinner h3 {
+    font-size: 11px;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 0.55px;
+}
+
+#profileinner p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 8px;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+}
+
+/* fourth */
+
+#fourth {
+    width: 100%;
+    height: 340px;
+    background-color: #575988;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fourthinner {
+    width: 90%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#fourthpart1 {
+    height: 100%;
+    width: 530px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+#fourthpart1 h1 {
+    font-size: 32px;
+    line-height: 48px;
+    color: white;
+}
+
+#fourthpart1 p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: white;
+    font-weight: 300;
+}
+
+#fourthpart2 {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#fourthpart2 input {
+    box-shadow: 2px 3px 6px 0px #07043B28;
+    border-radius: 3px;
+    border: none;
+    width: 100%;
+    height: 48px;
+}
+
+#fourthpart2 input::placeholder {
+    position: relative;
+    left: 20px;
+    color: #C0C0C0;
+    font-size: 12px;
+}
+
+#fourthpart2 button {
+    box-shadow: 2px 3px 6px 0px #07043B28;
+    border-radius: 3px;
+    border: none;
+    width: 40%;
+    height: 48px;
+    background-color: #2F65F8;
+    color: white;
+    font-size: 14px;
+}
+
+/* fifth */
+
+#fifth {
+    width: 100%;
+    height: 390px;
+    background-color: #07043B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#fifthinner {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+#img2 {
+    background-image: url(./Fill\ 1\ \(1\).png);
+    width: 46px;
+    height: 37px;
+    background-repeat: no-repeat;
+}
+
+#fifthinner h1 {
+    color: white;
+}
+
+#secondFylo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 18px;
+    align-items: center;
+}
+
+#fifthbottom {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#aboutus {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#aboutpart1 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+
+}
+
+#aboutpart1 div {
+    background-image: url(./Shape\ \(3\).png);
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+#aboutpart2 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+#aboutpart2 div {
+    background-image: url(./Shape\ \(1\).svg);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    background-position: center;
+}
+
+.ps {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+    width: 180px;
+}
+
+
+
+#navs {
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+}
+
+.navparts {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.links {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    line-height: 16px;
+    text-decoration: none;
+    width: 80px;
+}
+
+.links:active {
+    color: #6C9BFF;
+}
+
+#navpart2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#link2_1 {
+    background-image: url(./facebook.png);
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 15px;
+    background-position: center;
+}
+
+#link2_2 {
+    background-image: url(./twitter.png);
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 21px;
+    background-position: center;
+}
+
+#link2_3 {
+    background-image: url(./insta1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+
+
+.links2 {
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:1440px) {
+    #navs {
+        gap: 150px;
+    }
+}
+
+@media (max-width:1024px) {
+    #navs {
+        gap: 100px;
+    }
+}
+
+@media (max-width:850px) {
+    #navs {
+        gap: 70px;
+    }
+}
+
+@media (max-width:768px) {
+    #second {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    #secondimg {
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+    }
+
+
+    #third {
+        flex-direction: column-reverse;
+        gap: 30px;
+        align-items: center;
+    }
+
+    #thirdimg {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #thirdinner h1 {
+        font-size: 40px;
+    }
+
+    #thirdinner {
+        align-items: center;
+    }
+
+    #ps {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #fourth {
+        height: 500px;
+    }
+
+    #fourthinner {
+        flex-direction: column;
+        align-items: start;
+        width: 75%;
+    }
+
+    #navs {
+        gap: 55px;
+    }
+
+    #secondinner div {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #secondinner input,
+    #secondinner button {
+        width: 100%;
+    }
+}
+
+
+@media (max-width:730px) {
+    #navs {
+        gap: 25px;
+    }
+
+    #secondinner {
+        text-align: center;
+        width: 84%;
+    }
+
+    
+
+    #secondinner h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    #secondinner p {
+        font-size: 16px;
+    }
+
+
+    #thirdinner{
+        width: 90%;
+        text-align: center;
+    }
+
+    #thirdinner h1{
+        font-size: 30px;
+    }
+
+    #ps{
+        font-size: 16px;
+    }
+
+    #fourthinner{
+        text-align: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #fourthpart1{
+        width: 100%;
+    }
+
+    #fourthpart2{
+        width: 95%;
+    }
+
+    #fourthpart2 button{
+        width: 100%;
+    }
+
+    #fifth{
+        height: 630px;
+    }
+
+    #fifthinner{
+        width: 90%;
+    }
+
+    #fifthbottom{
+        width: 100%;
+    }
+
+    #navs{
+        flex-direction: column;
+        gap: 50px;
+        width: 100%;
+    }
+
+    #navpart2{
+        align-self: center;
+    }
+}
+
+@media (max-width:480px){
+
+    #maininner{
+        margin-top: 20px;
+    }
+
+    #icon{
+        background-image: url(Fill\ 1\ \(3\).png);
+        width: 27px;
+        height: 23px;
+    }
+
+    #fylo h1{
+        font-size: 25px;
+    }
+
+
+    #firstText{
+        font-size: 12px;
+        text-align: center;
+        gap: 30px;
+    }
+
+    #firstText p{
+        width: 40px;
+    }
+
+    #secondimg{
+        height: 300px;
+        width: 95%;
+    }
+
+    #secondinner h1{
+        font-size: 24px;
+    }
+
+    #secondinner p{
+        font-size: 14px;
+    }
+
+    #thirdimg{
+        height: 270px;
+        width: 95%;
+        background-size: 100% 100%;
+    }
+
+    #thirdinner h1{
+        font-size: 16px;
+    }
+
+    #ps p{
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    #green{
+        width: 130px;
+    }
+
+    #greenpart1 p{
+        font-size: 12px;
+    }
+
+    #about{
+        width: 100%;
+        text-align: start;
+        height: 230px;
+    }
+    #aboutinner{
+        width: 90%;
+    }
+
+    #aboutinner h2{
+        font-size: 35px;
+    }
+
+    #p1{
+        font-size: 10px;
+    }
+
+    #fourthpart1 h1{
+        font-size: 18px;
+    }
+
+    #fourthpart2 p{
+        font-size: 14px;
+    }
+}
