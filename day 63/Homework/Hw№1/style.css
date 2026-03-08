@@ -88,3 +88,7 @@ button:active{
     width: 150px;
     height: 150px;
 }
+
+#scoreNum{
+    display: inline;
+}

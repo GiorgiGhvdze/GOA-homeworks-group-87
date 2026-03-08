@@ -3,6 +3,8 @@ const paper = document.getElementById("paper");
 const scissors = document.getElementById("scissors");
 const myAnswer = document.getElementById("myAnswer");
 const AIAnswer = document.getElementById("AIAnswer");
+const myScore = document.getElementById("scoreNum1");
+const AIScore = document.getElementById("scoreNum2");
 
 let arr = ["rockImage", "paperImage", "scissorsImage"]
 
@@ -10,6 +12,8 @@ const randomItem = (arr) => {
     return arr[Math.floor(Math.random() * arr.length)]
 }
 
+let myScoreValue = 0;
+let AIScoreValue = 0;
 
 rock.onclick = function () {
 
@@ -27,11 +31,13 @@ rock.onclick = function () {
     else if (aiAnswer == 'paperImage') {
         document.getElementById("myH1").textContent = "You lost!";
         document.getElementById("myH1").style.color = "red";
+        AIScore.textContent = AIScoreValue++;
     }
 
     else{
         document.getElementById("myH1").textContent = "You won!";
         document.getElementById("myH1").style.color = "green";
+        myScore.textContent = myScoreValue++;
     }
 }
 
@@ -51,11 +57,13 @@ paper.onclick = function () {
     else if (aiAnswer == 'scissorsImage') {
         document.getElementById("myH1").textContent = "You lost!";
         document.getElementById("myH1").style.color = "red";
+        AIScore.textContent = AIScoreValue++;
     }
 
     else{
         document.getElementById("myH1").textContent = "You won!";
         document.getElementById("myH1").style.color = "green";
+        myScore.textContent = myScoreValue++;
     }
 }
 
@@ -75,10 +83,12 @@ scissors.onclick = function () {
     else if (aiAnswer == 'rockImage') {
         document.getElementById("myH1").textContent = "You lost!";
         document.getElementById("myH1").style.color = "red";
+        AIScore.textContent = AIScoreValue++;
     }
 
     else{
         document.getElementById("myH1").textContent = "You won!";
         document.getElementById("myH1").style.color = "green";
+        myScore.textContent = myScoreValue++;
     }
 }
