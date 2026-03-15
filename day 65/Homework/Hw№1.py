@@ -17,7 +17,7 @@ while running:
         print("\n  Thanks for playing\n")
         break
 
-    if player_choice == AI_choice:
+    if (player_choice == "1" and AI_choice == "rock") or (player_choice == "2" and AI_choice == "paper") or (player_choice == "3" and AI_choice == "scissors"):
         print("------------------------------------------------------------------------------------------------\n\n   Its a tie! \n")
         print(f"  your choice: {"rock" if player_choice == "1" else "paper" if player_choice == "2" else "scissors"}                       AI choice: {AI_choice}")
         print(f"  Your score: {player_score}                            AI score: {AI_score}\n")
